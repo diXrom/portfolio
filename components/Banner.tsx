@@ -35,7 +35,7 @@ function Banner(props: BannerProps): React.ReactElement {
         </Link>
         or
         <a
-          className='ml-2 font-normal text-black'
+          className='block ml-2 font-normal text-black sm:inline'
           href={frontMatter.resume}
           target='_blank'
           rel='noreferrer'

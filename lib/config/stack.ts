@@ -14,7 +14,8 @@ export enum Stack {
   html,
   mui,
   framermotion,
-  nextjs
+  nextjs,
+  node
 }
 
 export const WorkStack = [
@@ -27,6 +28,7 @@ export const WorkStack = [
   Stack.redux,
   Stack.rtkq,
   Stack.nextjs,
+  Stack.node,
   Stack.git,
   Stack.jest,
   Stack.mui,
@@ -44,8 +46,12 @@ export const StackInfo: Record<Stack, StackInfoMap> = {
     value: 'TypeScript',
     color: Colors.typescript,
   },
+  [Stack.node]: {
+    value: 'NodeJS',
+    color: Colors.node,
+  },
   [Stack.nextjs]: {
-    value: 'Next.js',
+    value: 'NextJs',
     color: Colors.web,
   },
   [Stack.javascript]: {

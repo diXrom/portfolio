@@ -2,7 +2,7 @@
 name: Timur Tolegen
 shortname: Timur
 avatar: /static/avatar.jpg
-occupation: Junior Frontend Developer
+occupation: Frontend Developer
 company: none
 resume: /static/Dixrom_Resume.pdf
 email: dixrom25@gmail.com
@@ -14,3 +14,5 @@ github: https://github.com/dixrom
 A software engineer who values learning and growing with people, teams, and technologies.
 
 Meticulous web developer with over 1 years of front end experience and passion for responsive website design and a firm believer in the mobile-first approach.
+
+I mainly specialize in interface development using React and TypeScript.
