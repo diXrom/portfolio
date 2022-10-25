@@ -2,10 +2,10 @@ const siteMetadata = {
   title: 'Timur Tolegen',
   author: 'Timur Tolegen',
   headerTitle: 'Timur Tolegen',
-  description: 'A junior frontend developer who values learning and growing with people, teams, and technologies.',
+  description: 'A frontend developer who values learning and growing with people, teams, and technologies.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://dixrom.com',
+  siteUrl: 'https://dixrom.vercel.app/',
   siteRepo: 'https://github.com/dixrom/portfolio',
   siteLogo: '/static/images/logo.png',
   image: '/static/avatar.jpg',
