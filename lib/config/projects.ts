@@ -80,7 +80,7 @@ export const projects: Project[] = [
     ],
     dimensions: [365, 750],
     screenshots: [
-      '/static/projects/rslang/Screenshot1.png', '/static/projects/rslang/Screenshot2.png', '/static/projects/rslang/Screenshot3.png',
+      '/static/projects/blog/Screenshot1.png', '/static/projects/blog/Screenshot2.png', '/static/projects/blog/Screenshot3.png',
     ],
     deployment: {
       git: 'https://github.com/diXrom/blog',
