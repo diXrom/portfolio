@@ -60,6 +60,35 @@ export const projects: Project[] = [
     subProjects: [],
   },
   {
+    title: 'MERN blog',
+    slug: 'blog',
+    banner: '/static/projects/blog/Screenshot1.png',
+    website: 'https://github.com/diXrom/blog',
+    description:
+      'The MERN stack is a popular set of technologies for creating a modern Single Page Application (SPA). MERN stands for MongoDB, Express, React, and Node.js',
+    shortDescription:
+      'It\'s a full stack Blog application with React, Redux, Node, Express & MongoDB.',
+    repository: 'https://github.com/diXrom/blog',
+    stack: [
+      Stack.typescript,
+      Stack.react,
+      Stack.node,
+      Stack.redux,
+      Stack.rtkq,
+      Stack.tailwindcss,
+      Stack.framermotion,
+    ],
+    dimensions: [365, 750],
+    screenshots: [
+      '/static/projects/rslang/Screenshot1.png', '/static/projects/rslang/Screenshot2.png', '/static/projects/rslang/Screenshot3.png',
+    ],
+    deployment: {
+      git: 'https://github.com/diXrom/blog',
+      web: 'https://dixrom.github.io/blog/',
+    },
+    subProjects: [],
+  },
+  {
     title: 'Tmdb',
     slug: 'tmdb',
     banner: '/static/projects/tmdb/Screenshot1.png',
