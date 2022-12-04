@@ -89,6 +89,34 @@ export const projects: Project[] = [
     subProjects: [],
   },
   {
+    title: 'Project Management',
+    slug: 'projectmanagement',
+    banner: '/static/projects/projectmanagement/Screenshot1.png',
+    website: 'https://github.com/diXrom/project-management',
+    description:
+      'Final group project at RSSchool (EPAM) for 3 people. A project management system is an application that helps an individual in a team or group of developers achieve their goals. Ideas were implemented with trello.com. Try out now on Project Management',
+    shortDescription:
+      'A project management system',
+    repository: 'https://github.com/diXrom/project-management',
+    stack: [
+      Stack.typescript,
+      Stack.react,
+      Stack.redux,
+      Stack.rtkq,
+      Stack.tailwindcss,
+      Stack.framermotion,
+    ],
+    dimensions: [365, 750],
+    screenshots: [
+      '/static/projects/projectmanagement/Screenshot1.png', '/static/projects/projectmanagement/Screenshot2.png', '/static/projects/projectmanagement/Screenshot3.png','/static/projects/projectmanagement/Screenshot4.png',
+    ],
+    deployment: {
+      git: 'https://github.com/diXrom/project-management',
+      web: 'https://dixrom.github.io/project-management/#/',
+    },
+    subProjects: [],
+  },
+  {
     title: 'Tmdb',
     slug: 'tmdb',
     banner: '/static/projects/tmdb/Screenshot1.png',
